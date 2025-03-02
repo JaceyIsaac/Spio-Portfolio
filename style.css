@@ -331,6 +331,17 @@ span {
     font-weight: 600;
 }
 
+.shortsvideo-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 31.58%; /* 19:6 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 15px rgba(251, 18, 20, 0.5);
+}
+
 /*===== ABOUT ME ======*/
 .aboutme {
     background-color: var(--section-background);
